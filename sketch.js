@@ -21,7 +21,7 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(800,400);
+  createCanvas(windowWidth,windowHeigth);
   
   backgr=createSprite(0,0,800,400);
   backgr.addImage(backImage);
